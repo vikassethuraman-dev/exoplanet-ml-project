@@ -1,2 +1,8 @@
 import pandas as pd
-print(pd.__version__)
+
+def main():
+    stars = pd.read_csv("data/star_list.csv")
+    print (stars)
+
+if __name__ == "__main__":
+    main()
